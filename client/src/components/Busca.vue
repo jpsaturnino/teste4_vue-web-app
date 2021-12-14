@@ -2,7 +2,7 @@
   <div class="container">
     <h1>{{ titulo }}</h1>
     <div>
-      <input type="search" placeholder="Digite o texto a ser buscado..." v-model="texto" />
+      <input type="search" placeholder="Digite o texto a ser buscado... Ex: envio de documentos" v-model="texto" />
       <button @click="buscar">Buscar</button>
       <p>{{ trechos_encontrados.length }} trechos encontrados com "{{texto}}"</p>
     </div>
