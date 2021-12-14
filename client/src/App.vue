@@ -1,17 +1,16 @@
 <template>
-  <div>
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <Busca titulo="Teste 4 - Busca textual"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Busca from "./components/Busca.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    Busca
   }
 };
 </script>
